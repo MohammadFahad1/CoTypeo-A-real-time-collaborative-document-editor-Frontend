@@ -1,3 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
-  return <div>Hello from page.tsx{/* Here is the main page */}</div>;
+  return (
+    <div>
+      <Button>Click Me</Button>
+    </div>
+  );
 }
